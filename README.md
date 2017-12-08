@@ -61,3 +61,6 @@ This playbook uses tags to target the tasks appropriate to the operation
 `create` - targets only the playbook tasks required during instance creation
 
 `terminate` - targets only the playbook tasks required during instance termination
+
+### License
+MIT

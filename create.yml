@@ -1,0 +1,9 @@
+---
+- name: Create lab instances in AWS
+  hosts: localhost
+  connection: local
+  become: no
+  gather_facts: no
+
+  roles:
+    - ansible-role-prvsn_win_ec2

@@ -1,8 +1,5 @@
 ---
 # defaults file for provision
-ansible_connection: winrm
-ansible_ssh_port: 5986
-ansible_ssh_user: Administrator
 ec2_wait: yes
 ec2_exact_count: 1
 win_init_pass: !vault |
